@@ -17,7 +17,7 @@
     </form>
 
     <div style="margin-top: 15px;"></div>
-    <!-- Mostrar mensaje de éxito o error -->
+
     <h4 v-if="loginCorrecto" style="color: green;">Acceso Autorizado</h4>
     <h4 v-if="loginIncorrecto" style="color: red;">Usuario o Contraseña incorrectos</h4>
   </div>

@@ -30,7 +30,6 @@ export default {
 </script>
 
 <style>
-  /* Estilos opcionales */
   button {
     margin-right: 10px;
   }

@@ -20,7 +20,7 @@
             <tr v-for="compra in compras" :key="compra.idPedido">
               <td class="align-middle text-center">{{ compra.idPedido }}</td>
               <td class="align-middle text-center">{{ formatDate(compra.fechaPedido) }}</td>
-              <!-- Agrega más celdas según sea necesario -->
+  
             </tr>
           </tbody>
         </table>
@@ -68,5 +68,4 @@ export default {
 </script>
 
 <style>
-  /* Agrega estilos según sea necesario */
 </style>
